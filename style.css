@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, rgb(125, 188, 32), rgb(52, 21, 203));
+    font-size: 22px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container button{
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    margin: 20px;
+    border-radius: 12px;
+    border: 2px solid black;
+    outline: none;
+}
+.container button:hover{
+    outline: none;
+    background-color: rgb(29, 27, 27);
+    color: rgba(235, 223, 223, 0.829);
+}
+.container input[type="color"]{
+    width: 160px;
+    margin: 10px;
+    height: 32px;
+}
+.new
+{
+    padding: 20px;
+    margin: 10px;
+}
